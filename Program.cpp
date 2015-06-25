@@ -6,12 +6,11 @@
 // TODO: Implement BasicFileIO
 //#include "BasicFileIO.hpp"
 
-#include "ConsoleInputConcept.hpp"
+//#include "ConsoleInputConcept.hpp"
 
 // TODO: Implement FunctionPointerConcept
 //#include "FunctionPointerConcept.hpp"
 
-// TODO: Implement HelloWorldConcept
 //#include "HelloWorldConcept.hpp"
 
 // TODO: Implement MapAndUnorderedMapConcept
@@ -20,8 +19,7 @@
 // TODO: Implement MemoryManagementConcept
 //#include "MemoryManagementConcept.hpp"
 
-// TODO: Implement ParameterTypesConcept
-//#include "ParameterTypesConcept.hpp"
+#include "ParameterTypesConcept.hpp"
 
 
 using namespace std;
@@ -30,17 +28,10 @@ using namespace concept;
 int x;
 int main()
 {
-    IConcept *concept = new ConsoleInputConcept();
-
-    concept->run();
-
-    cout << x;
+    currentConcept.run();
 
     cout << endl << "Press enter to finish...";
-    
     cin.get();
-
-    delete concept;
 
     return 0;
 }

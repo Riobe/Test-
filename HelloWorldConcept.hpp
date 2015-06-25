@@ -9,7 +9,7 @@ namespace concept
     {
     public:
         virtual void run();
-    };
+    } currentConcept;
 }
 
 #endif
