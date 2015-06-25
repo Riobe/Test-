@@ -31,7 +31,7 @@
     <ClCompile Include="ConsoleInputConcept.cpp">
       <Filter>Concepts\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ParameterTypes.cpp">
+    <ClCompile Include="ParameterTypesConcept.cpp">
       <Filter>Concepts\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -49,7 +49,7 @@
     <ClInclude Include="ConsoleInputConcept.hpp">
       <Filter>Concepts\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ParameterTypes.hpp">
+    <ClInclude Include="ParameterTypesConcept.hpp">
       <Filter>Concepts\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
