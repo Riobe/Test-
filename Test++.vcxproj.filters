@@ -34,6 +34,21 @@
     <ClCompile Include="ParameterTypesConcept.cpp">
       <Filter>Concepts\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ArrayAndVectorConcept.cpp">
+      <Filter>Concepts\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicFileIOConcept.cpp">
+      <Filter>Concepts\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionPointerConcept.cpp">
+      <Filter>Concepts\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapAndUnorderedMapConcept.cpp">
+      <Filter>Concepts\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManagementConcept.cpp">
+      <Filter>Concepts\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HelloWorldConcept.hpp">
@@ -50,6 +65,21 @@
       <Filter>Concepts\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ParameterTypesConcept.hpp">
+      <Filter>Concepts\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayAndVectorConcept.hpp">
+      <Filter>Concepts\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicFileIOConcept.hpp">
+      <Filter>Concepts\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionPointerConcept.hpp">
+      <Filter>Concepts\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapAndUnorderedMapConcept.hpp">
+      <Filter>Concepts\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManagementConcept.hpp">
       <Filter>Concepts\Header Files</Filter>
     </ClInclude>
   </ItemGroup>

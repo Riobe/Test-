@@ -64,18 +64,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ArrayAndVectorConcept.cpp" />
+    <ClCompile Include="BasicFileIOConcept.cpp" />
     <ClCompile Include="ConsoleInputConcept.cpp" />
+    <ClCompile Include="FunctionPointerConcept.cpp" />
     <ClCompile Include="HelloWorldConcept.cpp" />
+    <ClCompile Include="MapAndUnorderedMapConcept.cpp" />
     <ClCompile Include="Math.cpp" />
+    <ClCompile Include="MemoryManagementConcept.cpp" />
     <ClCompile Include="ParameterTypesConcept.cpp" />
     <ClCompile Include="Program.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ArrayAndVectorConcept.hpp" />
+    <ClInclude Include="BasicFileIOConcept.hpp" />
     <ClInclude Include="ConsoleInputConcept.hpp" />
+    <ClInclude Include="FunctionPointerConcept.hpp" />
     <ClInclude Include="HelloWorldConcept.hpp" />
     <ClInclude Include="IConcept.hpp" />
     <ClInclude Include="Interface.hpp" />
+    <ClInclude Include="MapAndUnorderedMapConcept.hpp" />
     <ClInclude Include="Math.hpp" />
+    <ClInclude Include="MemoryManagementConcept.hpp" />
     <ClInclude Include="ParameterTypesConcept.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
