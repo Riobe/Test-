@@ -4,7 +4,7 @@
 using namespace std;
 using namespace concept;
 
-void HelloWorldConcept::Run()
+void HelloWorldConcept::run()
 {
     std::cout << "Hello World!" << std::endl;
 }

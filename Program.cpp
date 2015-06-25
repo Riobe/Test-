@@ -1,15 +1,15 @@
 #include <iostream>
 #include "HelloWorldConcept.hpp"
-#include "ConsoleInput.hpp"
+#include "ConsoleInputConcept.hpp"
 
 using namespace std;
 using namespace concept;
 
 int main()
 {
-    IConcept *concept = new ConsoleInput();
+    IConcept *concept = new ConsoleInputConcept();
 
-    concept->Run();
+    concept->run();
 
     cout << endl << "Press enter to finish...";
     

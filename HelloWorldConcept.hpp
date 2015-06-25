@@ -8,7 +8,7 @@ namespace concept
     class HelloWorldConcept : public IConcept
     {
     public:
-        virtual void Run();
+        virtual void run();
     };
 }
 

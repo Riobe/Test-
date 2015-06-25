@@ -10,9 +10,6 @@
     <Filter Include="Concepts\Source Files">
       <UniqueIdentifier>{87bfa832-44f3-4baa-a7ce-085cd08f7a31}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Top Level">
-      <UniqueIdentifier>{fbf88169-4952-462c-a279-07a9cd203b18}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Math">
       <UniqueIdentifier>{b521a562-da3d-4a9b-8574-c93a896c5cad}</UniqueIdentifier>
     </Filter>
@@ -27,13 +24,11 @@
     <ClCompile Include="HelloWorldConcept.cpp">
       <Filter>Concepts\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Program.cpp">
-      <Filter>Top Level</Filter>
-    </ClCompile>
     <ClCompile Include="Math.cpp">
       <Filter>Math\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ConsoleInput.cpp">
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="ConsoleInputConcept.cpp">
       <Filter>Concepts\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -44,13 +39,11 @@
     <ClInclude Include="IConcept.hpp">
       <Filter>Concepts\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Interface.hpp">
-      <Filter>Top Level</Filter>
-    </ClInclude>
     <ClInclude Include="Math.hpp">
       <Filter>Math\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ConsoleInput.hpp">
+    <ClInclude Include="Interface.hpp" />
+    <ClInclude Include="ConsoleInputConcept.hpp">
       <Filter>Concepts\Header Files</Filter>
     </ClInclude>
   </ItemGroup>

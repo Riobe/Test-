@@ -10,7 +10,7 @@ namespace concept
     public:
         virtual ~IConcept() { }
 
-        virtual void Run() = 0;
+        virtual void run() = 0;
     };
 }
 #endif

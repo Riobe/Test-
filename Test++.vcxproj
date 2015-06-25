@@ -64,13 +64,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ConsoleInput.cpp" />
+    <ClCompile Include="ConsoleInputConcept.cpp" />
     <ClCompile Include="HelloWorldConcept.cpp" />
     <ClCompile Include="Math.cpp" />
     <ClCompile Include="Program.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ConsoleInput.hpp" />
+    <ClInclude Include="ConsoleInputConcept.hpp" />
     <ClInclude Include="HelloWorldConcept.hpp" />
     <ClInclude Include="IConcept.hpp" />
     <ClInclude Include="Interface.hpp" />
