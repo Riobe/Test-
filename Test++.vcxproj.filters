@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Concepts">
+      <UniqueIdentifier>{acf563d3-d6bc-44b9-afce-0f8c062315a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Concepts\Header Files">
+      <UniqueIdentifier>{a573c2c3-0f40-4b1e-9947-a8b841a2a934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Concepts\Source Files">
+      <UniqueIdentifier>{87bfa832-44f3-4baa-a7ce-085cd08f7a31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Top Level">
+      <UniqueIdentifier>{fbf88169-4952-462c-a279-07a9cd203b18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{b521a562-da3d-4a9b-8574-c93a896c5cad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Header Files">
+      <UniqueIdentifier>{16afbfc4-72b9-40c0-bbba-acf1ce1d54e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Source Files">
+      <UniqueIdentifier>{1249cbb7-7335-45fd-98cc-64017a956923}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HelloWorldConcept.cpp">
+      <Filter>Concepts\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>Top Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Math\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleInput.cpp">
+      <Filter>Concepts\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HelloWorldConcept.hpp">
+      <Filter>Concepts\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IConcept.hpp">
+      <Filter>Concepts\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.hpp">
+      <Filter>Top Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.hpp">
+      <Filter>Math\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleInput.hpp">
+      <Filter>Concepts\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

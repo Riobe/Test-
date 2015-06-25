@@ -1,0 +1,7 @@
+*.aps
+Debug/
+Release/
+*.sdf
+*.opensdf
+*.swp
+
