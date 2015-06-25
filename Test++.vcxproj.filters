@@ -31,6 +31,9 @@
     <ClCompile Include="ConsoleInputConcept.cpp">
       <Filter>Concepts\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ParameterTypes.cpp">
+      <Filter>Concepts\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HelloWorldConcept.hpp">
@@ -44,6 +47,9 @@
     </ClInclude>
     <ClInclude Include="Interface.hpp" />
     <ClInclude Include="ConsoleInputConcept.hpp">
+      <Filter>Concepts\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParameterTypes.hpp">
       <Filter>Concepts\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
