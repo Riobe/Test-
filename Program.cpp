@@ -6,9 +6,7 @@
 
 #include "BasicFileIOConcept.hpp"
 #include "ConsoleInputConcept.hpp"
-
-// TODO: Implement ConstUsesConcept
-//#include "ConstUsesConcept.hpp"
+#include "ConstUsesConcept.hpp"
 
 // TODO: Implement CopyAndAssignmentConcept
 //#include "CopyAndAssignmentConcept.hpp"
@@ -32,7 +30,7 @@ using namespace concept;
 
 int main()
 {
-    unique_ptr<IConcept> currentConcept(new UnorderedMapConcept);
+    unique_ptr<IConcept> currentConcept(new ConstUsesConcept);
     currentConcept->run();
 
     cout << endl << "Press enter to finish...";
