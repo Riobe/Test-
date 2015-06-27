@@ -1,5 +1,5 @@
-#ifndef MEMORYMANAGEMENTCONCEPT_HPP
-#define MEMORYMANAGEMENTCONCEPT_HPP
+#ifndef SMARTPOINTERCONCEPT_HPP
+#define SMARTPOINTERCONCEPT_HPP
 
 #include "IConcept.hpp"
 
@@ -7,7 +7,7 @@
 
 namespace concept
 {
-    class MemoryManagementConcept : public IConcept
+    class SmartPointerConcept : public IConcept
     {
     public:
         virtual void run();
@@ -39,4 +39,4 @@ namespace concept
     };
 }
 
-#endif
+#endif //!SMARTPOINTERCONCEPT_HPP

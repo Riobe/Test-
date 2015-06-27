@@ -21,7 +21,7 @@
 //#include "IterationConcept.hpp"
 
 #include "UnorderedMapConcept.hpp"
-#include "MemoryManagementConcept.hpp"
+#include "SmartPointerConcept.hpp"
 #include "ParameterTypesConcept.hpp"
 
 

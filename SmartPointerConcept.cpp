@@ -1,4 +1,4 @@
-#include "MemoryManagementConcept.hpp"
+#include "SmartPointerConcept.hpp"
 
 #include <iostream>
 #include <string>
@@ -8,17 +8,17 @@
 using namespace std;
 using namespace concept;
 
-const char MemoryManagementConcept::INDENT = '  ';
-const int MemoryManagementConcept::INDENT_SIZE = 2;
+const char SmartPointerConcept::INDENT = '  ';
+const int SmartPointerConcept::INDENT_SIZE = 2;
 
-void MemoryManagementConcept::run()
+void SmartPointerConcept::run()
 {
     uniqueSmartPointer();
     sharedSmartPointer();
     weakSmartPointer();
 }
 
-void MemoryManagementConcept::uniqueSmartPointer()
+void SmartPointerConcept::uniqueSmartPointer()
 {
     int nestLevel = 0;
     output("Demonstrating unique_ptr", nestLevel);
@@ -75,7 +75,7 @@ void MemoryManagementConcept::uniqueSmartPointer()
     output("}", nestLevel);
 }
 
-void MemoryManagementConcept::sharedSmartPointer()
+void SmartPointerConcept::sharedSmartPointer()
 {
     int nestLevel = 0;
     output("Demonstrating shared_ptr", nestLevel);
@@ -148,7 +148,7 @@ void MemoryManagementConcept::sharedSmartPointer()
     output("}", nestLevel);
 }
 
-void MemoryManagementConcept::weakSmartPointer()
+void SmartPointerConcept::weakSmartPointer()
 {
     int nestLevel = 0;
     output("Demonstrating weak_ptr", nestLevel);
@@ -205,28 +205,28 @@ void MemoryManagementConcept::weakSmartPointer()
     output("}", nestLevel);
 }
 
-void MemoryManagementConcept::outputObject(Object* const value, int nestLevel) const
+void SmartPointerConcept::outputObject(Object* const value, int nestLevel) const
 {
     output("outputObject: Object::nestLevel() == " + to_string(value->nestLevel()), nestLevel);
 }
 
-MemoryManagementConcept::Object::Object(int nestLevel)
+SmartPointerConcept::Object::Object(int nestLevel)
     : _nestLevel(nestLevel)
 {
-    MemoryManagementConcept::output("MemoryManagementConcept::Object()", _nestLevel);
+    SmartPointerConcept::output("SmartPointerConcept::Object()", _nestLevel);
 }
 
-MemoryManagementConcept::Object::~Object()
+SmartPointerConcept::Object::~Object()
 {
-    MemoryManagementConcept::output("MemoryManagementConcept::Object::~Object()", _nestLevel);
+    SmartPointerConcept::output("SmartPointerConcept::Object::~Object()", _nestLevel);
 }
 
-void MemoryManagementConcept::output(string message, int indentLevel)
+void SmartPointerConcept::output(string message, int indentLevel)
 {
     cout << string(indentLevel * INDENT_SIZE, INDENT) << message << endl;
 }
 
-int MemoryManagementConcept::Object::nestLevel() const
+int SmartPointerConcept::Object::nestLevel() const
 {
     return _nestLevel;
 }
