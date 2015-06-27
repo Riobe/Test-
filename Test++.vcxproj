@@ -72,6 +72,7 @@
     <ClCompile Include="ExplicitVsImplicitConversionConcept.cpp" />
     <ClCompile Include="FunctionPointerConcept.cpp" />
     <ClCompile Include="HelloWorldConcept.cpp" />
+    <ClCompile Include="IterationConcept.cpp" />
     <ClCompile Include="MapAndUnorderedMapConcept.cpp" />
     <ClCompile Include="Math.cpp" />
     <ClCompile Include="MemoryManagementConcept.cpp" />
@@ -89,6 +90,7 @@
     <ClInclude Include="HelloWorldConcept.hpp" />
     <ClInclude Include="IConcept.hpp" />
     <ClInclude Include="Interface.hpp" />
+    <ClInclude Include="IterationConcept.hpp" />
     <ClInclude Include="MapAndUnorderedMapConcept.hpp" />
     <ClInclude Include="Math.hpp" />
     <ClInclude Include="MemoryManagementConcept.hpp" />

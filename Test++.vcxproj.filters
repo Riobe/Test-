@@ -58,6 +58,9 @@
     <ClCompile Include="CopyAndAssignmentConcept.cpp">
       <Filter>Concepts\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="IterationConcept.cpp">
+      <Filter>Concepts\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HelloWorldConcept.hpp">
@@ -98,6 +101,9 @@
       <Filter>Concepts\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CopyAndAssignmentConcept.hpp">
+      <Filter>Concepts\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IterationConcept.hpp">
       <Filter>Concepts\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
