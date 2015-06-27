@@ -67,7 +67,7 @@
     <ClCompile Include="ArrayAndVectorConcept.cpp" />
     <ClCompile Include="BasicFileIOConcept.cpp" />
     <ClCompile Include="ConsoleInputConcept.cpp" />
-    <ClCompile Include="ConstUses.cpp" />
+    <ClCompile Include="ConstUsesConcept.cpp" />
     <ClCompile Include="CopyAndAssignmentConcept.cpp" />
     <ClCompile Include="ExplicitVsImplicitConversionConcept.cpp" />
     <ClCompile Include="FunctionPointerConcept.cpp" />

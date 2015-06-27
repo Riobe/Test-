@@ -46,9 +46,6 @@
     <ClCompile Include="MemoryManagementConcept.cpp">
       <Filter>Concepts\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ConstUses.cpp">
-      <Filter>Concepts\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="ExplicitVsImplicitConversionConcept.cpp">
       <Filter>Concepts\Source Files</Filter>
     </ClCompile>
@@ -59,6 +56,9 @@
       <Filter>Concepts\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="UnorderedMapConcept.cpp">
+      <Filter>Concepts\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstUsesConcept.cpp">
       <Filter>Concepts\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
