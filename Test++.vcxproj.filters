@@ -49,6 +49,15 @@
     <ClCompile Include="MemoryManagementConcept.cpp">
       <Filter>Concepts\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ConstUses.cpp">
+      <Filter>Concepts\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplicitVsImplicitConversionConcept.cpp">
+      <Filter>Concepts\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CopyAndAssignmentConcept.cpp">
+      <Filter>Concepts\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HelloWorldConcept.hpp">
@@ -82,5 +91,17 @@
     <ClInclude Include="MemoryManagementConcept.hpp">
       <Filter>Concepts\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ConstUsesConcept.hpp">
+      <Filter>Concepts\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplicitVsImplicitConversionConcept.hpp">
+      <Filter>Concepts\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyAndAssignmentConcept.hpp">
+      <Filter>Concepts\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test.txt" />
   </ItemGroup>
 </Project>

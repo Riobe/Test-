@@ -14,7 +14,7 @@ namespace concept
         void passByValue(int x);
         void passByReference(int &x);
         void passToPointer(int* x);
-    } currentConcept;
+    };
 }
 
 #endif // !PARAMETERTYPESCONCEPT_HPP

@@ -6,5 +6,5 @@ using namespace concept;
 
 void HelloWorldConcept::run()
 {
-    std::cout << "Hello World!" << std::endl;
+    cout << "Hello World!" << endl;
 }

@@ -67,6 +67,9 @@
     <ClCompile Include="ArrayAndVectorConcept.cpp" />
     <ClCompile Include="BasicFileIOConcept.cpp" />
     <ClCompile Include="ConsoleInputConcept.cpp" />
+    <ClCompile Include="ConstUses.cpp" />
+    <ClCompile Include="CopyAndAssignmentConcept.cpp" />
+    <ClCompile Include="ExplicitVsImplicitConversionConcept.cpp" />
     <ClCompile Include="FunctionPointerConcept.cpp" />
     <ClCompile Include="HelloWorldConcept.cpp" />
     <ClCompile Include="MapAndUnorderedMapConcept.cpp" />
@@ -79,6 +82,9 @@
     <ClInclude Include="ArrayAndVectorConcept.hpp" />
     <ClInclude Include="BasicFileIOConcept.hpp" />
     <ClInclude Include="ConsoleInputConcept.hpp" />
+    <ClInclude Include="ConstUsesConcept.hpp" />
+    <ClInclude Include="CopyAndAssignmentConcept.hpp" />
+    <ClInclude Include="ExplicitVsImplicitConversionConcept.hpp" />
     <ClInclude Include="FunctionPointerConcept.hpp" />
     <ClInclude Include="HelloWorldConcept.hpp" />
     <ClInclude Include="IConcept.hpp" />
@@ -87,6 +93,11 @@
     <ClInclude Include="Math.hpp" />
     <ClInclude Include="MemoryManagementConcept.hpp" />
     <ClInclude Include="ParameterTypesConcept.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
