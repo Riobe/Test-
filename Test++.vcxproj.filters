@@ -43,9 +43,6 @@
     <ClCompile Include="FunctionPointerConcept.cpp">
       <Filter>Concepts\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MemoryManagementConcept.cpp">
-      <Filter>Concepts\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="ExplicitVsImplicitConversionConcept.cpp">
       <Filter>Concepts\Source Files</Filter>
     </ClCompile>
@@ -59,6 +56,9 @@
       <Filter>Concepts\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ConstUsesConcept.cpp">
+      <Filter>Concepts\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartPointerConcept.cpp">
       <Filter>Concepts\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -88,9 +88,6 @@
     <ClInclude Include="FunctionPointerConcept.hpp">
       <Filter>Concepts\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MemoryManagementConcept.hpp">
-      <Filter>Concepts\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="ConstUsesConcept.hpp">
       <Filter>Concepts\Header Files</Filter>
     </ClInclude>
@@ -104,6 +101,9 @@
       <Filter>Concepts\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="UnorderedMapConcept.hpp">
+      <Filter>Concepts\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPointerConcept.hpp">
       <Filter>Concepts\Header Files</Filter>
     </ClInclude>
   </ItemGroup>

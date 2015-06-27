@@ -75,7 +75,7 @@
     <ClCompile Include="IterationConcept.cpp" />
     <ClCompile Include="UnorderedMapConcept.cpp" />
     <ClCompile Include="Math.cpp" />
-    <ClCompile Include="MemoryManagementConcept.cpp" />
+    <ClCompile Include="SmartPointerConcept.cpp" />
     <ClCompile Include="ParameterTypesConcept.cpp" />
     <ClCompile Include="Program.cpp" />
   </ItemGroup>
@@ -93,7 +93,7 @@
     <ClInclude Include="IterationConcept.hpp" />
     <ClInclude Include="UnorderedMapConcept.hpp" />
     <ClInclude Include="Math.hpp" />
-    <ClInclude Include="MemoryManagementConcept.hpp" />
+    <ClInclude Include="SmartPointerConcept.hpp" />
     <ClInclude Include="ParameterTypesConcept.hpp" />
   </ItemGroup>
   <ItemGroup>
