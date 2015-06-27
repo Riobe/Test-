@@ -1,4 +1,4 @@
-#include "MapAndUnorderedMapConcept.hpp"
+#include "UnorderedMapConcept.hpp"
 
 #include <iostream>
 #include <string>
@@ -8,7 +8,7 @@
 using namespace std;
 using namespace concept;
 
-void MapAndUnorderedMapConcept::run()
+void UnorderedMapConcept::run()
 {
     // Slower for key lookup, faster for iteration.
     map<string, int> values;

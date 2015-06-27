@@ -22,7 +22,7 @@
 // TODO: Implement IterationConcept
 //#include "IterationConcept.hpp"
 
-#include "MapAndUnorderedMapConcept.hpp"
+#include "UnorderedMapConcept.hpp"
 #include "MemoryManagementConcept.hpp"
 #include "ParameterTypesConcept.hpp"
 
@@ -32,7 +32,7 @@ using namespace concept;
 
 int main()
 {
-    unique_ptr<IConcept> currentConcept(new MapAndUnorderedMapConcept);
+    unique_ptr<IConcept> currentConcept(new UnorderedMapConcept);
     currentConcept->run();
 
     cout << endl << "Press enter to finish...";

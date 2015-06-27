@@ -1,15 +1,15 @@
-#ifndef MAPANDUNORDEREDMAPCONCEPT_HPP
-#define MAPANDUNORDEREDMAPCONCEPT_HPP
+#ifndef UNORDEREDMAPCONCEPT_HPP
+#define UNORDEREDMAPCONCEPT_HPP
 
 #include "IConcept.hpp"
 
 namespace concept
 {
-    class MapAndUnorderedMapConcept : public IConcept
+    class UnorderedMapConcept : public IConcept
     {
     public:
         virtual void run();
     };
 }
 
-#endif // !MAPANDUNORDEREDMAPCONCEPT_HPP
+#endif // !UNORDEREDMAPCONCEPT_HPP
