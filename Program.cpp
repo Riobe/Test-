@@ -19,9 +19,10 @@
 #include "FunctionPointerConcept.hpp"
 #include "HelloWorldConcept.hpp"
 
-// TODO: Implement MapAndUnorderedMapConcept
-//#include "MapAndUnorderedMapConcept.hpp"
+// TODO: Implement IterationConcept
+//#include "IterationConcept.hpp"
 
+#include "MapAndUnorderedMapConcept.hpp"
 #include "MemoryManagementConcept.hpp"
 #include "ParameterTypesConcept.hpp"
 
@@ -31,7 +32,7 @@ using namespace concept;
 
 int main()
 {
-    unique_ptr<IConcept> currentConcept(new FunctionPointerConcept);
+    unique_ptr<IConcept> currentConcept(new MapAndUnorderedMapConcept);
     currentConcept->run();
 
     cout << endl << "Press enter to finish...";
