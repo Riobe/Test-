@@ -31,7 +31,7 @@ using namespace concept;
 
 int main()
 {
-    unique_ptr<IConcept> currentConcept(new BasicFileIOConcept);
+    unique_ptr<IConcept> currentConcept(new FunctionPointerConcept);
     currentConcept->run();
 
     cout << endl << "Press enter to finish...";
